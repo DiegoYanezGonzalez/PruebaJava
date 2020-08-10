@@ -3,12 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".vista.fragments.ImageBreedFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    android:orientation="horizontal"
+    tools:context=".vista.fragments.ImageBreedFragment"
+    >
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
+        android:id="@+id/recyclerId2"/>
 </FrameLayout>
